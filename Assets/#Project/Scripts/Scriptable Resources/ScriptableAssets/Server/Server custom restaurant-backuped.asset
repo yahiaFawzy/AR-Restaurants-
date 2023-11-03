@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c212332312d9f364db16a6a4790315ca, type: 3}
+  m_Name: Server custom restaurant-backuped
+  m_EditorClassIdentifier: 
+  restaurantModels:
+  - Id: Break_Fast
+    RestaurantName: BreakFast
+    Logo: {fileID: 21300000, guid: 18df25304e84a2f4aa344e49ee2e388e, type: 3}
+    BackGroundImage: {fileID: 21300000, guid: 8495733b193cdef40ad4e2a652540100, type: 3}
+    Description: 'our sign is tasty but healthy our sign is tasty but healthy our
+      sign is tasty but healthy our sign is tasty but healthy our sign is tasty but
+      healthy our sign is tasty but healthy our sign is tasty but healthy our sign
+      is tasty but healthy our sign is tasty but healthy our sign is tasty but healthy
+      our sign is tasty but healthy '
+    locationOnMap:
+      x: 0
+      y: 0
+    Rate: 4.3
+    meals:
+    - Id: Male_2
+      Name: Pumpkin Bread
+      Description: Break fast
+      Price: 13
+      logo: {fileID: 21300000, guid: 93e647a763d16a24d8ab2ec99c2670fe, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 31
+        sugar: 22
+        protein: 37
+        carbohydrates: 18
+        calories: 40
+    - Id: Male_3
+      Name: Beef Sandawitch
+      Description: Break fast
+      Price: 4
+      logo: {fileID: 21300000, guid: c49e1914cfbadac48a46032d8330777c, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 15
+        sugar: 18
+        protein: 4
+        carbohydrates: 20
+        calories: 29
+    - Id: Male_4
+      Name: Croissant Bread
+      Description: Warung Herbal
+      Price: 3
+      logo: {fileID: 21300000, guid: e6c087b2e9f052b459a760f8bc591962, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 43
+        sugar: 26
+        protein: 18
+        carbohydrates: 10
+        calories: 29
+    - Id: Male_5
+      Name: Ciabatta Bread
+      Description: Warung Herbal
+      Price: 9
+      logo: {fileID: 21300000, guid: c001b6d6d0046364a926f77b42785da4, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 46
+        sugar: 24
+        protein: 5
+        carbohydrates: 39
+        calories: 30
+    - Id: Male_6
+      Name: Chocolate Croissant Bread
+      Description: Warung Herbal
+      Price: 4
+      logo: {fileID: 21300000, guid: c40337870e5de764d842f632379c3a03, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 1
+        sugar: 8
+        protein: 4
+        carbohydrates: 34
+        calories: 42
+    - Id: light breakfast
+      Name: light breakfast
+      Description: Warung Herbal
+      Price: 4
+      logo: {fileID: 21300000, guid: db69ce698b2b0ee48ba4e7e458602f84, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 19
+        sugar: 25
+        protein: 18
+        carbohydrates: 23
+        calories: 10
+    - Id: chartreuse  desert
+      Name: chartreuse  desert
+      Description: Warung Herbal
+      Price: 4
+      logo: {fileID: 21300000, guid: f07e320155158004ba4ba7efdeaf80c7, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 34
+        sugar: 46
+        protein: 26
+        carbohydrates: 17
+        calories: 31
+    - Id: apero
+      Name: apero
+      Description: Warung Herbal
+      Price: 4
+      logo: {fileID: 21300000, guid: 4da3a0868a2475345ad20b6d52e5d78f, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 2
+        sugar: 4
+        protein: 7
+        carbohydrates: 4
+        calories: 39
+    - Id: breakfast happy male
+      Name: breakfast happy male
+      Description: Warung Herbal
+      Price: 4
+      logo: {fileID: 21300000, guid: 34f1e241b3f54f245af3bfdd5360e33b, type: 3}
+      bigImg: {fileID: 21300000, guid: 5b388b15d9a6d5c4f96be9789dadaac9, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 47
+        sugar: 5
+        protein: 22
+        carbohydrates: 22
+        calories: 39
+  - Id: Burger
+    RestaurantName: Burger
+    Logo: {fileID: 21300000, guid: aa2eb49561f55d04abc1c012efa054f9, type: 3}
+    BackGroundImage: {fileID: 21300000, guid: 8495733b193cdef40ad4e2a652540100, type: 3}
+    Description: 'our sign is tasty but healthy our sign is tasty but healthy our
+      sign is tasty but healthy our sign is tasty but healthy our sign is tasty but
+      healthy our sign is tasty but healthy our sign is tasty but healthy our sign
+      is tasty but healthy our sign is tasty but healthy our sign is tasty but healthy
+      our sign is tasty but healthy '
+    locationOnMap:
+      x: 0
+      y: 0
+    Rate: 4.5
+    meals:
+    - Id: Male_1
+      Name: friday burger
+      Description: Warung Herbal
+      Price: 7
+      logo: {fileID: 21300000, guid: 5eb52634d4e844247a35ce0e5e2138d3, type: 3}
+      bigImg: {fileID: 21300000, guid: 602f71c899fb68648b85e998b4b1945d, type: 3}
+      components:
+      - peaf
+      - bread
+      - catchup
+      healthyData:
+        fat: 15
+        sugar: 9
+        protein: 22
+        carbohydrates: 36
+        calories: 24
+    - Id: Male_2
+      Name: burger
+      Description: Warung Herbal
+      Price: 7
+      logo: {fileID: 21300000, guid: 9d4ae922836c27d4cb81fc8ac135b4d1, type: 3}
+      bigImg: {fileID: 21300000, guid: 602f71c899fb68648b85e998b4b1945d, type: 3}
+      components:
+      - peaf
+      - bread
+      - catchup
+      healthyData:
+        fat: 42
+        sugar: 45
+        protein: 13
+        carbohydrates: 7
+        calories: 10
+    - Id: Male_3
+      Name: kaba burger
+      Description: Warung Herbal
+      Price: 10
+      logo: {fileID: 21300000, guid: e963a4a4098e2bc4cac9be9474c4144d, type: 3}
+      bigImg: {fileID: 21300000, guid: 602f71c899fb68648b85e998b4b1945d, type: 3}
+      components:
+      - peaf
+      - bread
+      - catchup
+      healthyData:
+        fat: 11
+        sugar: 35
+        protein: 21
+        carbohydrates: 44
+        calories: 4
+  - Id: Candies
+    RestaurantName: Candies
+    Logo: {fileID: 21300000, guid: 76bfa9cbcde74614a852bf61f4041741, type: 3}
+    BackGroundImage: {fileID: 21300000, guid: 8495733b193cdef40ad4e2a652540100, type: 3}
+    Description: 'our sign is tasty but healthy our sign is tasty but healthy our
+      sign is tasty but healthy our sign is tasty but healthy our sign is tasty but
+      healthy our sign is tasty but healthy our sign is tasty but healthy our sign
+      is tasty but healthy our sign is tasty but healthy our sign is tasty but healthy
+      our sign is tasty but healthy '
+    locationOnMap:
+      x: 0
+      y: 0
+    Rate: 4.3
+    meals:
+    - Id: Male_1
+      Name: blue berry muffined
+      Description: Candies
+      Price: 8
+      logo: {fileID: 21300000, guid: f69d6ea46909f194facacdc702f07d63, type: 3}
+      bigImg: {fileID: 21300000, guid: c0d57190a79a7744c85de8b85a747dba, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 10
+        sugar: 48
+        protein: 22
+        carbohydrates: 47
+        calories: 1
+    - Id: Male_2
+      Name: Dulce de Leche
+      Description: Candies
+      Price: 10
+      logo: {fileID: 21300000, guid: f31402d75833ed24598f8bfa40038f03, type: 3}
+      bigImg: {fileID: 21300000, guid: c0d57190a79a7744c85de8b85a747dba, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 13
+        sugar: 40
+        protein: 23
+        carbohydrates: 46
+        calories: 38
+    - Id: Male_3
+      Name: tarte
+      Description: Candies
+      Price: 12
+      logo: {fileID: 21300000, guid: 80c021063eeb8db45b2876d83bd1faf2, type: 3}
+      bigImg: {fileID: 21300000, guid: c0d57190a79a7744c85de8b85a747dba, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 48
+        sugar: 21
+        protein: 5
+        carbohydrates: 37
+        calories: 22
+    - Id: student en haver
+      Name: student en haver
+      Description: Candies
+      Price: 12
+      logo: {fileID: 21300000, guid: 0f453a01bff5b864fbf3499fa4588533, type: 3}
+      bigImg: {fileID: 21300000, guid: c0d57190a79a7744c85de8b85a747dba, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 13
+        sugar: 5
+        protein: 15
+        carbohydrates: 26
+        calories: 34
+    - Id: fish cookies
+      Name: fish cookies
+      Description: Candies
+      Price: 12
+      logo: {fileID: 21300000, guid: 87d0cb8b7ea73da4284146ed3bdf5880, type: 3}
+      bigImg: {fileID: 21300000, guid: c0d57190a79a7744c85de8b85a747dba, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 35
+        sugar: 23
+        protein: 29
+        carbohydrates: 29
+        calories: 18
+  - Id: Drinks
+    RestaurantName: Drinks
+    Logo: {fileID: 21300000, guid: 36f2651f714ad3a42a3d5103323b40de, type: 3}
+    BackGroundImage: {fileID: 21300000, guid: 8495733b193cdef40ad4e2a652540100, type: 3}
+    Description: 'our sign is tasty but healthy our sign is tasty but healthy our
+      sign is tasty but healthy our sign is tasty but healthy our sign is tasty but
+      healthy our sign is tasty but healthy our sign is tasty but healthy our sign
+      is tasty but healthy our sign is tasty but healthy our sign is tasty but healthy
+      our sign is tasty but healthy '
+    locationOnMap:
+      x: 0
+      y: 0
+    Rate: 4.1
+    meals:
+    - Id: Male_1
+      Name: Ice coffe
+      Description: Drink
+      Price: 7
+      logo: {fileID: 21300000, guid: 96017e5528f5f584bbe127b9dfc99c24, type: 3}
+      bigImg: {fileID: 21300000, guid: 98dc3bef987157748ad2a334d2240e18, type: 3}
+      components:
+      - 'ice '
+      - coffe
+      - Milk
+      healthyData:
+        fat: 30
+        sugar: 17
+        protein: 45
+        carbohydrates: 32
+        calories: 9
+    - Id: Male_2
+      Name: Cappuccino
+      Description: Drinks
+      Price: 13
+      logo: {fileID: 21300000, guid: dcbe33ec73dfb1c4fabf6b39cde5dc93, type: 3}
+      bigImg: {fileID: 21300000, guid: 98dc3bef987157748ad2a334d2240e18, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 22
+        sugar: 13
+        protein: 8
+        carbohydrates: 49
+        calories: 4
+    - Id: Nescafe
+      Name: Nescafe
+      Description: Drinks
+      Price: 13
+      logo: {fileID: 21300000, guid: 92b1223a37e34154f9ca74494c8c8bab, type: 3}
+      bigImg: {fileID: 21300000, guid: 98dc3bef987157748ad2a334d2240e18, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 34
+        sugar: 11
+        protein: 34
+        carbohydrates: 40
+        calories: 38
+  - Id: Pizza
+    RestaurantName: Pizza
+    Logo: {fileID: 21300000, guid: f8734bd6be1b8df4890d4e6ae3e0d45e, type: 3}
+    BackGroundImage: {fileID: 21300000, guid: 8495733b193cdef40ad4e2a652540100, type: 3}
+    Description: 'our sign is tasty but healthy our sign is tasty but healthy our
+      sign is tasty but healthy our sign is tasty but healthy our sign is tasty but
+      healthy our sign is tasty but healthy our sign is tasty but healthy our sign
+      is tasty but healthy our sign is tasty but healthy our sign is tasty but healthy
+      our sign is tasty but healthy '
+    locationOnMap:
+      x: 0
+      y: 0
+    Rate: 4.3
+    meals:
+    - Id: vegan pizza
+      Name: vegan pizza
+      Description: pizza
+      Price: 5
+      logo: {fileID: 21300000, guid: 016bea9c92ab4f64694af4bbb7b3938a, type: 3}
+      bigImg: {fileID: 21300000, guid: 7e15abd418ad99143bfcb03a4edc5122, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 28
+        sugar: 14
+        protein: 24
+        carbohydrates: 8
+        calories: 4
+    - Id: pizza slice
+      Name: pizza slice
+      Description: pizza
+      Price: 3
+      logo: {fileID: 21300000, guid: f758b54bdbb637f49b06f2bed42e56e9, type: 3}
+      bigImg: {fileID: 21300000, guid: 7e15abd418ad99143bfcb03a4edc5122, type: 3}
+      components:
+      - Butter
+      - 'Wheat flour '
+      - Milk
+      healthyData:
+        fat: 5
+        sugar: 44
+        protein: 35
+        carbohydrates: 49
+        calories: 38

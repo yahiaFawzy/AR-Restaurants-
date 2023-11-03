@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f2b93793a0748d439a58ab87ae8a805, type: 3}
+  m_Name: Main Configurations
+  m_EditorClassIdentifier: 
+  CHAT_API: http://185.210.92.176:8080/api/chat?question=
+  CHAT_Apikey: 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
+  AZURE_Apikey: 98c4e5b9d4c64d1f990323cc579c7ee1
+  AZURE_Region: eastus
+  AZURE_LanguagesSetting:
+  - LanguageName: Arabic
+    SpeechSynthesisVoiceName: ar-KW-FahedNeural
+    RecognizerLanguage: ar-KW
+  - LanguageName: English
+    SpeechSynthesisVoiceName: en-US-DavisNeural
+    RecognizerLanguage: en-US
+  - LanguageName: Turkish
+    SpeechSynthesisVoiceName: tr-TR-AhmetNeural
+    RecognizerLanguage: tr-TR
+  AZURE_AR_SpeechSynthesisVoiceName: ar-KW-FahedNeural
+  AZURE_AR_RecognizerLanguage: ar-KW
+  AZURE_EN_SpeechSynthesisVoiceName: en-US-DavisNeural
+  AZURE_EN_RecognizerLanguage: en-US
+  AZURE_TR_SpeechSynthesisVoiceName: tr-TR-AhmetNeural
+  AZURE_TR_RecognizerLanguage: tr-TR
